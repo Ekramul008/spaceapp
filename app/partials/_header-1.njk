@@ -1,0 +1,24 @@
+<!-- Header Starts -->
+<header class="site-header header-menu-left {{header_class}}">
+  <div class="container pr-lg--30 pl-lg--30">
+    <nav class="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light">
+      <!-- Brand Logo-->
+      <div class="brand-logo"><a href="landing-1.html"><img src="./image/png/logo.png" alt=""></a></div>
+      <!-- Menu-->
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <div class="navbar-nav mr-lg-auto mr--10">
+          {% include "_menu.njk" %}
+        </div>
+        <button class="btn-close navbar-toggler" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="true" aria-label="Toggle navigation">
+          <i class="icon icon-simple-remove icon-close"></i>
+        </button>
+      </div>
+      <button class="navbar-toggler btn-open btn-close-off-canvas ml-3 icon-burger" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon icon-menu-34"></i>
+      </button>
+      <div class="header_btn d-none d-lg-block">
+        <a href="" class="btn btn--primary-3 header-link d-inline-block"> Get Started Now</a>
+      </div>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,382 @@
+{% extends "template.njk" %}
+{% block main %}
+<div class="landing-1">
+    {% include "_header-1.njk" %}
+
+    <!-- Finity Home page contents -->
+    <div class="hero-section">
+        <div class="pl-lg--45 pr-lg--45 pr-xl--70 pl-xl--70">
+            <div class="bg-image hero-bg-gradient" style="background-image: url(./image/jpg/hero-bg.jpg);">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xl-6 col-lg-7">
+                            <div class="hero-content">
+                                <h1 class="h1 title" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">Join the most popular tech companies.</h1>
+                                <p class="p1 mb--30" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">We’ve helped over 2,500 job seekers to get into <br class="d-none d-lg-block">the most popular tech teams.</p>
+                                <div class="indicator" data-aos="fade-up" data-aos-duration="2000" data-aos-once="true">
+                                    <img src="{{image_path.png}}tail-down.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Brand Section -->
+    <div class="brand-section bg--light">
+        <div class="container">
+            <p class="p2 color-light">Popular tech companies who are seeking talents in our website</p>
+            <div class="brands-wrapper d-flex align-items-center justify-content-center mb-d--35">
+                <div class="single-brand mb--35 mr--35 mr-lg--75">
+                    <img src="{{image_path.png}}logo-5.png" alt="">
+                </div>
+                <div class="single-brand mb--35 mr--35 mr-lg--75">
+                    <img src="{{image_path.png}}logo-4.png" alt="">
+                </div>
+                <div class="single-brand mb--35 mr--35 mr-lg--75">
+                    <img src="{{image_path.png}}logo-3.png" alt="">
+                </div>
+                <div class="single-brand mb--35 mr--35 mr-lg--75">
+                    <img src="{{image_path.png}}logo-2.png" alt="">
+                </div>
+                <div class="single-brand mb--35 mr-0">
+                    <img src="{{image_path.png}}logo-1.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Explore Section -->
+    <div class="explore-section bg--light">
+        <div class="container">
+            <div class="d-md-flex justify-content-between align-items-center text-center text-md-left">
+                <h2 class="h2 color-dark">Explore <br class="d-none d-md-block" />by category </h2>
+                <div class="explore-slide-nav">
+                </div>
+            </div>
+        </div>
+        <div class="explore-slider">
+            <div class="single-slide">
+                <a href="#" class="explore-card">
+                    <div class="card-icon mb--30">
+                        <img src="{{image_path.png}}coins.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="h6 title mb--5">Finance</h6>
+                        <p class="excerpt p4">237 Jobs</p>
+                    </div>
+                </a>
+            </div>
+            <div class="single-slide">
+                <a href="#" class="explore-card">
+                    <div class="card-icon mb--30">
+                        <img src="{{image_path.png}}drop.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="h6 title mb--5">Design</h6>
+                        <p class="excerpt p4">237 Jobs</p>
+                    </div>
+                </a>
+            </div>
+            <div class="single-slide">
+                <a href="#" class="explore-card">
+                    <div class="card-icon mb--30">
+                        <img src="{{image_path.png}}analytics.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="h6 title mb--5">Marketing</h6>
+                        <p class="excerpt p4">237 Jobs</p>
+                    </div>
+                </a>
+            </div>
+            <div class="single-slide">
+                <a href="#" class="explore-card">
+                    <div class="card-icon mb--30">
+                        <img src="{{image_path.png}}business-agent.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="h6 title mb--5">Human Resource</h6>
+                        <p class="excerpt p4">237 Jobs</p>
+                    </div>
+                </a>
+            </div>
+            <div class="single-slide">
+                <a href="#" class="explore-card">
+                    <div class="card-icon mb--30">
+                        <img src="{{image_path.png}}code.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="h6 title mb--5">Developer</h6>
+                        <p class="excerpt p4">237 Jobs</p>
+                    </div>
+                </a>
+            </div>
+            <div class="single-slide">
+                <a href="#" class="explore-card">
+                    <div class="card-icon mb--30">
+                        <img src="{{image_path.png}}headphone.png" alt="">
+                    </div>
+                    <div class="card-text">
+                        <h6 class="h6 title mb--5">Customer Support</h6>
+                        <p class="excerpt p4">237 Jobs</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- gallery Section -->
+    <div class="job-gallery-section">
+        <div class="container" data-aos="fade-up" data-aos-once="true" data-aos-duration="1000">
+            <div class="row mb-d--30">
+                <div class="col-12">
+                    <div class="section-head">
+                        <h2>Find a job <br class="d-none d-md-block" />that you love</h2>
+                        <a href="" class="btn btn--skyblue btn-height--lg btn-width--lg">See All 2359 Jobs</a>
+                    </div>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 mb--30">
+                    <a href="#" class="card-job">
+                        <div class="card-head">
+                            <span class="location"><i class="icon icon-pin-3 mr--5"></i> South Haven, USA</span>
+                            <span class="badge green">Full-time</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="h5">Senior UX Designer at Cravers Tech.</h5>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-left d-flex align-items-center">
+                                <div class="client-logo mr--10">
+                                    <img src="{{image_path.png}}company1.png" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <h5 class="company-title mb--5">DropDrop Inc.</h5>
+                                    <span class="posting-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 mb--30">
+                    <a href="#" class="card-job">
+                        <div class="card-head">
+                            <span class="location"><i class="icon icon-pin-3 mr--5"></i> South Haven, USA</span>
+                            <span class="badge orange">Part-time</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="h5">Senior UX Designer at Cravers Tech.</h5>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-left d-flex align-items-center">
+                                <div class="client-logo mr--10">
+                                    <img src="{{image_path.png}}company2.png" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <h5 class="company-title mb--5">Cravers Tech</h5>
+                                    <span class="posting-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 mb--30">
+                    <a href="#" class="card-job">
+                        <div class="card-head">
+                            <span class="location"><i class="icon icon-pin-3 mr--5"></i> South Haven, USA</span>
+                            <span class="badge orange">Part-time</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="h5">Senior UX Designer at Cravers Tech.</h5>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-left d-flex align-items-center">
+                                <div class="client-logo mr--10">
+                                    <img src="{{image_path.png}}company3.png" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <h5 class="company-title mb--5">Help180</h5>
+                                    <span class="posting-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 mb--30">
+                    <a href="#" class="card-job">
+                        <div class="card-head">
+                            <span class="location"><i class="icon icon-pin-3 mr--5"></i> South Haven, USA</span>
+                            <span class="badge orange">Part-time</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="h5">Senior UX Designer at Cravers Tech.</h5>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-left d-flex align-items-center">
+                                <div class="client-logo mr--10">
+                                    <img src="{{image_path.png}}company4.png" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <h5 class="company-title mb--5">Shapers</h5>
+                                    <span class="posting-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 mb--30">
+                    <a href="#" class="card-job">
+                        <div class="card-head">
+                            <span class="location"><i class="icon icon-pin-3 mr--5"></i> South Haven, USA</span>
+                            <span class="badge blue">Remote</span>
+
+                        </div>
+                        <div class="card-body">
+                            <h5 class="h5">Senior UX Designer at Cravers Tech.</h5>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-left d-flex align-items-center">
+                                <div class="client-logo mr--10">
+                                    <img src="{{image_path.png}}company5.png" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <h5 class="company-title mb--5">Expracto</h5>
+                                    <span class="posting-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-10 col-md-6 col-lg-4 mb--30">
+                    <a href="#" class="card-job">
+                        <div class="card-head">
+                            <span class="location"><i class="icon icon-pin-3 mr--5"></i> South Haven, USA</span>
+                            <span class="badge green">Full-time</span>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="h5">Senior UX Designer at Cravers Tech.</h5>
+                        </div>
+                        <div class="card-footer">
+                            <div class="card-footer-left d-flex align-items-center">
+                                <div class="client-logo mr--10">
+                                    <img src="{{image_path.png}}company1.png" alt="">
+                                </div>
+                                <div class="client-details">
+                                    <h5 class="company-title mb--5">Cravers Tech</h5>
+                                    <span class="posting-time">2 days ago</span>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Listing Listing Section -->
+    <div class="job-listing-section">
+        <div class="container">
+            <div class="row justify-content-lg-center">
+                <div class="col-xl-6 col-lg-5 col-md-6 mb--30 mb-lg--0">
+                    <div class="left-content-wrapper" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true">
+                        <div class="big-img" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000" data-aos-once="true">
+                            <img src="{{image_path.png}}job-listing.png" alt="">
+                        </div>
+                        <div class="small-img" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000" data-aos-once="true">
+                            <img src="{{image_path.png}}dotted.png" alt="">
+                        </div>
+                        <div class="alert-img" data-aos="fade-in-left" data-aos-delay="400" data-aos-duration="1000" data-aos-once="true">
+                            <img src="{{image_path.png}}alert-img.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7 col-md-8  mt-xl--50">
+                    <div class="newsletter">
+                        <span class="sub-title mb--25">Join over 15,000+ tech people</span>
+                        <h2 class="h2 title color-dark">Get instant alert on your inbox</h2>
+                        <p class="p2">We receive over 50 new job submission at our website. Subscribe to our newsletter and get instant job alert on your inbox to apply. </p>
+                        <form action="/" class="newsletter-form">
+                            <div class="input-group mb-3">
+                                <div class="input-with-icon icon-left">
+                                    <input type="email" class="form-control" placeholder="Enter your email" aria-label="Recipient's username">
+                                    <span class="input-icon"><i class="icon icon-email-84"></i></span>
+                                </div>
+                                <button type="submit" class="btn btn--skyblue btn-width--md btn-height--xl h8">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Latest News Blog Section -->
+    <div class="blog-section bg--light" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="h2 title">Latest news <br class="d-none d-lg-block" />about job trends</h2>
+                    <a href="#" class="blog-card mb--30">
+                        <div class="card-img">
+                            <img src="{{image_path.png}}blog1.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h5 class="h5">Why freelancers are more interested in Full-time jobs?</h5>
+                            <div class="excerpt-details">
+                                <span class="publish-time mr--40"><i class="icon icon-time-3"></i> 2 days ago</span>
+                                <span class="require-time"><i class="icon icon-time-3"></i> 6 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="blog-card mb--30">
+                        <div class="card-img">
+                            <img src="{{image_path.png}}blog2.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h5 class="h5">10 resume writing tips to land you next job.</h5>
+                            <div class="excerpt-details">
+                                <span class="publish-time mr--40"><i class="icon icon-time-3"></i> 2 days ago</span>
+                                <span class="require-time"><i class="icon icon-time-3"></i> 6 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <div class="pt--90 d-none d-lg-block"></div>
+                    <a href="#" class="blog-card mb--30">
+                        <div class="card-img">
+                            <img src="{{image_path.png}}blog3.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h5 class="h5">Engineering job is becoming more interesting.</h5>
+                            <div class="excerpt-details">
+                                <span class="publish-time mr--40"><i class="icon icon-time-3"></i> 2 days ago</span>
+                                <span class="require-time"><i class="icon icon-time-3"></i> 6 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                    <a href="#" class="blog-card mb--30">
+                        <div class="card-img">
+                            <img src="{{image_path.png}}blog4.png" alt="">
+                        </div>
+                        <div class="card-text">
+                            <h5 class="h5">How to manage your time efficiently to do more.</h5>
+                            <div class="excerpt-details">
+                                <span class="publish-time mr--40"><i class="icon icon-time-3"></i> 2 days ago</span>
+                                <span class="require-time"><i class="icon icon-time-3"></i> 6 min read</span>
+                            </div>
+                        </div>
+                    </a>
+                    <div class="more-btn text-center">
+                        <a href="#" class="h8 color-light">See all blog posts</a>
+                    </div>
+                </div>
+                <hr class="mb-0" />
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    {% include "_footer-2.njk" %}
+</div>
+{% endblock %}

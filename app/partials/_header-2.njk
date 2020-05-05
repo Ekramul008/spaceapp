@@ -1,0 +1,22 @@
+<!-- Header Starts -->
+<header class="site-header {{header.class}}">
+  <div class="{{header.container}}">
+    <nav class="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light {{header.nav_class}}">
+      <!-- Brand Logo-->
+      <div class="brand-logo"><a href="landing-1.html"><img src="{{image_path.png}}{{header.brand}}" alt=""></a></div>
+      <div class="collapse navbar-collapse" id="mobile-menu">
+        <div class="navbar-nav">
+          {% include "_menu.njk" %}
+        </div>
+        <button class="btn-close navbar-toggler " type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="true" aria-label="Toggle navigation">
+          <i class="icon icon-simple-remove"></i>
+        </button>
+      </div>
+      <button class="navbar-toggler btn-open btn-close-off-canvas icon-burger {{toggler_class}}" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="icon icon-menu-34"></i>
+      </button>
+      <div class="header-btns "><a href="#" class="btn {{header.btn_class}}">{{header.btn_text}}</a></div>
+      
+    </nav>
+  </div>
+</header>

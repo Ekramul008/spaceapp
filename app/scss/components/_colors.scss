@@ -1,0 +1,68 @@
+.opct2 {
+    opacity: .2;
+}
+
+.border-bottom-black {
+    border-bottom: 1px solid #000;
+}
+
+.color-white {
+    color: $white;
+}
+
+.color-primary {
+    color: $primary-color;
+}
+.color-skyblue {
+    color: #22b0fc;
+}
+.color-blue {
+    color: #258aff;
+}
+
+
+.bg--primary {
+    background-color: $primary-color;
+}
+.bg--blue {
+    background-color: $blue;
+}
+
+.bg--skyblue {
+    background-color: $sky-blue;
+}
+.bg--light {
+    background: $background-light;
+}
+.bg--white {
+    background: $white;
+}
+
+
+.text-color-bali{
+   color: #8c97ac;
+}
+
+
+.bg-paste{
+    background: #0de4a0;
+  }
+.bg-violate{
+    background: #6853e8;
+  }
+.bg-blue{
+    background: #26387a;
+}
+
+.bg-opacity-orange{
+    background:rgba(#f7633a,.1);
+}
+.bg-opacity-paste{
+    background:rgba(#0de4a0,.1);
+}
+.bg-opacity-violate{
+    background:rgba(#6853e8,.1);
+}
+.bg-opacity-blue{
+    background:rgba(#26387a,.1);
+}

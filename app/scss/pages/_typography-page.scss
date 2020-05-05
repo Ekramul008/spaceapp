@@ -1,0 +1,11 @@
+.typography-styles {
+    padding: 80px 0;
+    @include desktops {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    @include large-desktops {
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}

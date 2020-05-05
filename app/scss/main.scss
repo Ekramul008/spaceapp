@@ -1,0 +1,76 @@
+
+// For Scss : -
+// //--helpers/variables
+  //-- helpers/mixins
+  //-- components/buttons
+  //-- components/cards
+  //-- components/colors
+  //-- components/footer
+  //-- components/form
+  //-- components/header
+  //-- components/icons
+  //-- components/inner-page-banner
+  //-- components/menu
+  //-- components/typography
+  //-- components/widgets
+  //-- pages/landing-1
+  //-- pages/landing-2
+  //-- pages/landing-3
+  //-- pages/landing-4
+  //-- pages/pricing
+  //-- pages/contact
+  //-- pages/about
+  //-- pages/careerdetails
+  //-- pages/career-page
+  //-- pages/case-study
+  //-- pages/pricing-pages
+  //-- pages/blog-pages
+  //-- pages/contact-pages
+  //-- pages/thank-you
+  //-- pages/404
+  //-- pages/faq
+  //-- pages/review
+  //-- pages/comming-soon
+  //-- pages/terms-page
+
+
+/*********** CSS TABLE OF CONTENTS *******************
+
+|--- 1.Common
+|-----1.0.Component/Buttons
+|-----1.1.Typography Page
+|-----1.2.Component/Color
+|-----1.3.Component/Form
+|-----1.4.Component/Icons
+|-----1.5.Component/Cards
+|-----1.6.Component/Widgets
+|-----1.7.Component/Footer
+|-----1.8.Component/Menu
+|-----1.9.Component/Header
+|-----1.10.Component/Inner page Banner
+|
+|--- 2.Header
+|-----2.0 Typography Page
+|-----2.1.Landing 1 
+|-----2.2.Landing 2 
+|-----2.3.Landing 3 
+|-----2.4.Landing 4 
+|-----2.5.Landing 5 
+|-----2.6.Landing 5 
+|-----2.7.Contact
+|-----2.8.About
+|-----2.9.Careerdetails
+|-----2.10.Contact Page
+|-----2.11.Pricining Page
+|-----2.12.Faq Page
+|-----2.13.Terms Page
+|-----2.14.404 Page
+|-----2.15.Comming soon Page
+
+******************************************************/
+
+@import 'helpers/variables';
+@import 'helpers/mixins';
+@import 'components';
+@import 'pages';
+

@@ -1,0 +1,315 @@
+/*=== Media Query ===*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "CircularStd", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #7c8087;
+  background: #FFF;
+}
+
+body.landing-4 {
+  font-family: "CircularStd", sans-serif;
+}
+
+body.landing-5 {
+  font-family: "CircularStd", sans-serif;
+}
+
+body.contact-page {
+  font-family: "CircularStd", sans-serif;
+}
+
+body.career-page {
+  font-family: "CircularStd", sans-serif;
+}
+
+body.about-page {
+  font-family: "CircularStd", sans-serif;
+}
+
+body.job-details-page {
+  font-family: "CircularStd", sans-serif;
+}
+
+.site-wrapper {
+  overflow: hidden;
+}
+
+.slick-slide:focus {
+  border: none;
+  outline: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+  color: #1d293f;
+}
+
+a,
+span {
+  display: inline-block;
+}
+
+a {
+  transition: 0.4s;
+  color: inherit;
+}
+
+a:focus {
+  outline: none !important;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #495fef;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: '';
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+p {
+  font-size: 15px;
+}
+
+span {
+  font-size: 12px;
+}
+
+.btn:focus,
+.btn:active {
+  box-shadow: none;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.form-control:focus {
+  box-shadow: none;
+}
+
+/* Common Classes */
+.section-padding {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .section-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  .section-padding {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+/* Background Image */
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/* Flex */
+.flex-all-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text--primary {
+  color: #495fef;
+}
+
+.fs-inherit {
+  font-size: inherit;
+}
+
+/* Animation */
+/* Go from zero to full opacity */
+@-webkit-keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    opacity: 0;
+    margin-right: -100px;
+  }
+  to {
+    opacity: 1;
+    margin-right: 0px;
+  }
+}
+
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    margin-right: -100px;
+  }
+  to {
+    opacity: 1;
+    margin-right: 0px;
+  }
+}
+
+.fadeInRight {
+  -webkit-animation-name: fadeInRight;
+          animation-name: fadeInRight;
+}
+
+@media (min-width: 480px) {
+  .d-xs-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .d-xs-block {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .d-lg-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .d-xl-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  .d-xxl-block {
+    display: block !important;
+  }
+}
+
+@media (min-width: 480px) {
+  .d-xs-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 576px) {
+  .d-xs-none {
+    display: none;
+  }
+}
+
+@media (min-width: 992px) {
+  .d-lg-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .d-xl-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 1366px) {
+  .d-xxl-none {
+    display: none !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .flex-lg-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 768px) {
+  .flex-md-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+@media (min-width: 576px) {
+  .flex-xs-right {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
+
+/*# sourceMappingURL=maps/settings.css.map */

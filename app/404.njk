@@ -1,0 +1,34 @@
+{% extends "template.njk" %}
+{% set page_class = "error-page" %}
+{%
+  set header = {
+    class : "sticky-header header-menu-right",
+    brand:"logo.png",
+    container:"container-fluid pr-lg--30 pl-lg--30",
+    btn_class:"btn btn-p3 btn--primary-3 btn-height--xsm btn-width--170 ml--20",
+    btn_text : "Start 14 Days Free Trial"
+  }  
+ %}
+{% block main %}
+  {% include "_header-2.njk" %}
+
+
+ <main class="error-page-main">
+    <div class="container">
+      <div class="contents">
+        <div class="content-image">
+            <img src="./image/png/404-image.png" alt="">
+        </div>
+        <div class="content-text">
+            <h1 class="title">404 Error!</h1>
+            <p>The page you are looking for is not available or doesn’t<br class="d-none d-md-block"> belong to this website!</p>
+        </div>
+        <div class="content-btn">
+            <a href="" class="btn btn-primary--outlined">Go back to home</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+{% include "_footer-1.njk" %}
+{% endblock %}

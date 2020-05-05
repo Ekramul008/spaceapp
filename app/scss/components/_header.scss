@@ -1,0 +1,333 @@
+  .header-menu-left {
+    .btn-open{
+      @include till-desktop{
+        order: 2;
+        margin-left: auto;
+      }
+    }
+    .site-navbar{
+      justify-content: space-between;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      .brand-logo{
+        margin-right: 0;
+        @include desktops{
+          text-align: left;
+          flex-basis: 17%;
+        }
+      }
+      .navbar-nav{
+        order: 2;
+        @include desktops{
+          order: 2;
+          flex: 70%;
+        }
+        .nav-item{
+          .nav-link {
+            color: $black;
+            font-size: 16px;
+            font-weight: 300;
+            margin-right: 5px;
+          }
+        }
+      }
+      .header-link {
+        // order: 3;
+        // flex: 20%;
+        // text-align: center;
+        // color: #fff;
+        // font-size: 16px;
+        // font-weight: 300;
+        // height: 50px;
+        // line-height: 38px;
+        // border-radius: 30px;
+        @include desktops{
+          order: 3;
+          flex: 20%;
+          text-align: center;
+          color: $black;
+          font-size: 16px;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+  .header-menu-center{
+    @include desktops{
+      .navbar-nav {
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+    .btn-open{
+      @include till-desktop{
+        order: 3;
+        margin-left: 15px;
+      }
+    }
+    .header-btns{
+      @include till-desktop{
+        order: 2;
+      }
+      .btn{
+        
+        display: none;
+        @include brk-point(370px){
+          display: inline-flex;
+        }
+        @include brk-point-range(320px,430px){
+          min-width: 105px;
+          height: 40px;
+          font-size: 13px;
+        }
+      }
+      @include till-desktop{
+        margin-left: auto;
+      }
+    }
+    
+    @include desktops{
+
+    }
+  }
+  .header-menu-right{
+    .btn-open{
+      @include till-desktop{
+        order: 3;
+      }
+    }
+    .header-btns{
+      display: none;
+      @include brk-point(390px){
+        display: block;
+      }
+      @include till-desktop{
+        margin-left: auto;
+        order: 2;
+        margin-right: 10px;
+      }
+      .btn{
+        display: inline-flex;
+        @include brk-point-range(320px,430px){
+          min-width: 105px;
+          height: 40px;
+          font-size: 13px;
+        }
+      }
+      
+    }
+    .navbar-nav{
+      @include desktops{
+        width: 100%;
+      }
+    }
+    .main-menu{
+      @include desktops{
+        margin-left: auto;
+      }
+    }
+  }
+  .header-menu-left{
+    .main-menu{
+      justify-content: flex-start;
+      .nav-item.dropdown{
+        > .menu-dropdown{
+          @include desktops{
+            left: 0%;
+          }
+        }
+        &:hover {
+          > .menu-dropdown{
+            @include desktops{
+              left: 0%;
+            }
+          }
+        }
+      }
+      .menu-dropdown > .drop-menu-item.dropdown {
+        > .menu-dropdown{
+          @include desktops{
+            right: -100%;
+            // transform: translateX(10%);
+            left: auto;
+            transform: translateX(0);
+          }
+        }
+        // &:hover{
+        //   > .menu-dropdown{
+        //     @include desktops{
+        //       right: -95%;
+        //     }
+        //   }
+        // }
+      }
+      .menu-dropdown > .drop-menu-item.dropdown:hover > .menu-dropdown{
+        @include desktops{
+          transform: translateX(0%);
+          right: -95%;
+        }
+      }
+    }
+  }
+  .header-btns {
+    @include desktops {
+      margin-left: 10px;
+    }
+  }
+ .absolute-header{
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+ }
+.btn-close{
+  color:rgba(0,0,0,.5)!important;
+}
+
+
+  .sticky-header{
+    // position: absolute!important;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    position: fixed!important;
+    transition: .4s transform, .4s box-shadow;
+    &.scrolling{
+      transform: translateY(-100%);
+      transition: .4s;
+      
+    }
+    &.reveal-header{
+      .site-navbar{
+        padding-top: 10px;
+      }
+      transform: translateY(0%);
+      box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
+      z-index: 9999;
+    }
+  }
+
+  .toggler-white{
+    color: #fff!important;
+    border-color: #fff!important;
+  }
+
+
+  .sticky-header{
+    position: absolute!important;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    @include desktops{
+      position: fixed!important;
+      transition: .4s;
+      &.scrolling{
+        transform: translateY(-100%);
+        transition: .4s;
+        
+      }
+      &.reveal-header{
+        background: #fff;
+        transform: translateY(0%);
+        box-shadow: 0 12px 34px -11px rgba(65, 62, 101, 0.1);
+        z-index: 9999;
+      }
+    }
+  }
+
+  .landing-1{
+    .sticky-header.reveal-header{
+      background: #fff;
+    }
+  }
+  .landing-2{
+    .sticky-header.reveal-header{
+      background: #fff;
+    }
+  }
+  .landing-3{
+    .sticky-header.reveal-header{
+      background: #fff;
+    }
+    &.dark-theme{
+      .sticky-header.reveal-header{
+        background: #19191b;
+      }
+    }
+  }
+  .landing-4{
+    .sticky-header.reveal-header{
+      background: #2E8DFC;
+    }
+  }
+  .landing-5{
+    .sticky-header.reveal-header{
+      background: #fff;
+    }
+  }
+  .landing-6{
+    .sticky-header.reveal-header{
+      background: #fff;
+    }
+  }
+ 
+
+  .site-navbar{
+    padding: 18px 0 10px 0;
+    &.menu-white{
+      .main-menu > li > .nav-link{
+       @include desktops{
+        color: #fff!important;
+       }
+      }
+      .navbar-toggler{
+        border-color:#fff;
+        color: #fff;
+      }
+    }
+  }
+.landing-2 {
+  .navbar-nav {
+    margin-right: 10px;
+    @include desktops {
+      justify-content: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    // .main-menu {
+    // }
+  }
+}
+
+
+/* ?----- Header 4 customization */ 
+.header-4{
+  .header-btns{
+    padding-left: 25px;
+    .btn{
+      font-weight: 300;
+    }
+  }
+ 
+}
+.header-5{
+  .header-btns{
+    padding-left: 25px;
+    
+  }
+  .main-menu > li > .nav-link:hover{
+    color: $primary-color!important;
+  }
+  .menu-dropdown{
+    border-top-color:$primary-color!important;
+  }
+  .menu-dropdown > .drop-menu-item:hover > a{
+    color: $primary-color;
+  }
+  .offcanvas-active.navbar-expand-lg .main-menu li:hover > a{
+    color: $primary-color;
+  }
+}

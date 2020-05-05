@@ -1,0 +1,71 @@
+.widget {
+  &-icon {
+    &--mid {
+      min-width: 83px;
+      min-height: 83px;
+      max-width: 83px;
+      max-height: 83px;
+      border-radius: 10px;
+      border: 1px solid #e2e4e8;
+      // background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &--big {
+      min-height: 97px;
+      min-width: 97px;
+      max-width: 97px;
+      max-height: 97px;
+      box-shadow: 0 32px 54px rgba(37, 138, 255, 0.22);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+// .single-how-wrapper{
+//   display: flex;
+//   .single-how{
+    
+//     &:nth-child(2){
+//       margin-top: 75px;
+//     }
+//     &:nth-child(3){
+//       margin-top: 150px;
+//     }
+//   }
+// }
+.single-how{
+  max-width: 313px;
+  &.arrow{
+    position: relative;
+    &:before{
+      position: absolute;
+      top: 0;
+      right: -35px;
+      margin-top: 38px;
+      display: none;
+      @include desktops{
+        display: block;
+        transform: scale(.9);
+      }
+      @include large-desktops{
+        display: block;
+        transform: scale(1);
+      }
+    }
+    &-1{
+      &:before{
+        content: url('../image/plugin-feature-arrow.png');
+      }
+    }
+    &-2{
+      &:before{
+        content: url('../image/plugin-feature-arrow-2.png');
+      }
+    }
+  }
+}
