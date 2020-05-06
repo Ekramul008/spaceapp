@@ -9,29 +9,12 @@
 }
 
 body {
-    font-family: "CircularStd", sans-serif;
+    font-family: "Inter", sans-serif;
     font-size: 16px;
     line-height: 1.5;
     color: #7c8087;
     background: #FFF;
-    &.landing-4{
-        font-family: "CircularStd", sans-serif;
-    }
-    &.landing-5{
-        font-family: "CircularStd", sans-serif;
-    }
-    &.contact-page{
-        font-family: "CircularStd", sans-serif;
-    }
-    &.career-page{
-        font-family: "CircularStd", sans-serif;
-    }
-    &.about-page{
-        font-family: "CircularStd", sans-serif;
-    }
-    &.job-details-page{
-        font-family: "CircularStd", sans-serif;
-    }
+    
 }
 .site-wrapper{
     overflow: hidden;
@@ -51,9 +34,8 @@ h5,
 h6 {
     padding: 0;
     margin: 0;
-    color: $text-dark;
+    color: $black;
 }
-
 
 a,
 span {

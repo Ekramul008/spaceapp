@@ -52,20 +52,7 @@
 |--- 2.Header
 |-----2.0 Typography Page
 |-----2.1.Landing 1 
-|-----2.2.Landing 2 
-|-----2.3.Landing 3 
-|-----2.4.Landing 4 
-|-----2.5.Landing 5 
-|-----2.6.Landing 5 
-|-----2.7.Contact
-|-----2.8.About
-|-----2.9.Careerdetails
-|-----2.10.Contact Page
-|-----2.11.Pricining Page
-|-----2.12.Faq Page
-|-----2.13.Terms Page
 |-----2.14.404 Page
-|-----2.15.Comming soon Page
 
 ******************************************************/
 
@@ -73,4 +60,5 @@
 @import 'helpers/mixins';
 @import 'components';
 @import 'pages';
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;531;600;700;800;900&display=swap');
 

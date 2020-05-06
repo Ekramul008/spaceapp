@@ -25,29 +25,26 @@
         .nav-item{
           .nav-link {
             color: $black;
-            font-size: 16px;
+            font-size: 15px;
             font-weight: 300;
             margin-right: 5px;
           }
         }
       }
       .header-link {
-        // order: 3;
-        // flex: 20%;
-        // text-align: center;
-        // color: #fff;
-        // font-size: 16px;
-        // font-weight: 300;
-        // height: 50px;
-        // line-height: 38px;
-        // border-radius: 30px;
+
         @include desktops{
           order: 3;
           flex: 20%;
           text-align: center;
-          color: $black;
-          font-size: 16px;
-          font-weight: 300;
+          color: #fff;
+          font-size: 13px;
+          font-weight: 700;
+          letter-spacing: 1.63px;
+          height: 50px;
+          line-height: 38px;
+          border-radius: 30px;
+          text-transform: uppercase;
         }
       }
     }

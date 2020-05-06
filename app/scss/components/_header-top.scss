@@ -1,0 +1,29 @@
+.top-color-mixer {
+    display: flex;
+    flex-wrap: nowrap;
+    .single-color {
+        height: 6px;
+        background: red;
+        flex-basis: 25%;
+        flex: 1;
+        &.blue{
+            background: $primary-color;
+        }
+        
+        &.green {
+            background: $secondary-color;
+        }
+        
+        &.red {
+            background: red;
+        }
+        
+        &.black {
+            background: black;
+        }
+    }
+    
+}
+
+
+
