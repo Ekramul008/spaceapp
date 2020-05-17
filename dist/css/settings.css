@@ -139,6 +139,10 @@ input[type="number"] {
   }
 }
 
+.section_padding {
+  padding: 100px 0;
+}
+
 /* Background Image */
 .bg-image {
   background-size: cover;
@@ -286,6 +290,14 @@ input[type="number"] {
     display: flex;
     justify-content: flex-end;
   }
+}
+
+p.mb--9 {
+  margin-bottom: 90px;
+}
+
+p.mb--6 {
+  margin-bottom: 60px;
 }
 
 /*# sourceMappingURL=maps/settings.css.map */

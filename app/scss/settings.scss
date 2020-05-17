@@ -137,7 +137,9 @@ input[type="number"] {
         padding-bottom: 120px;
     }
 }
-
+.section_padding {
+    padding: 100px 0;
+}
 /* Background Image */
 .bg-image{
     background-size: cover;
@@ -252,5 +254,10 @@ to {opacity: 1;}
     justify-content: flex-end;
    }
 }
-
+p.mb--9 {
+    margin-bottom: 90px;
+}
+p.mb--6 {
+    margin-bottom: 60px;
+}
 

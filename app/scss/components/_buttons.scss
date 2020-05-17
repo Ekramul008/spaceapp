@@ -3,13 +3,16 @@
     height: 50px;
     border-radius: 30px;
     font-size: 13px;
-    font-weight: 500;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     line-height: 50px;
     border: 0;
-    
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1.63px;
+    text-transform: uppercase;
+        
     &:hover{
 
 
@@ -93,27 +96,6 @@
         }
     }
     &--outlined{
-        &-p3{
-            border: 2px solid #e2e4e8;
-            color: #1d293f;
-            background: #fff;
-            &:hover {
-                background: $primary-color;
-                color: #fff;
-                border-color: $primary-color;
-            }
-        }
-        &-p4{
-            border: 2px solid #e2e4e8;
-            color: #1d293f;
-            background: transparent;
-            color: #fff;
-            &:hover {
-                background: $secondary-color;
-                color: #fff;
-                border-color: $secondary-color;
-            }
-        }
     }
     &--skyblue {
         border-radius: 0;

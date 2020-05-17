@@ -1,7 +1,38 @@
-.bg-image{
-    background-size:cover;
+.bg-image {
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     position: relative;
     z-index: 1;
+}
+
+
+// section image style for space app area
+
+.section_img {
+    position: relative;
+    padding-top: 150px;
+
+    .img_mobile {
+        position: absolute;
+        top: 6%;
+        left: 25%;
+        width: 304px;
+        border-radius: 20px;
+    }
+
+    .img_pattern {
+        position: absolute;
+        top: 105px;
+        width: 118px;
+        height: 120px;
+    }
+
+    .img_mobile.img_mobile_left {
+        left: 0;
+        top: 0;
+
+        img {}
+    }
+
 }
